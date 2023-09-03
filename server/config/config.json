@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "sa",
+    "password": "YourPassword",
+    "database": "sampleApp",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "port": 1433
+  },
+  "test": {
+    "username": "sa",
+    "password": "YourPassword",
+    "database": "sampleTestApp",
+    "host": "127.0.0.1",
+    "dialect": "mssql",
+    "port": 1433
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
